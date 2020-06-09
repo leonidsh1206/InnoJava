@@ -10,6 +10,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double seconds = sc.nextDouble();
         double hours = seconds / 3600.0; // Количество часов
-        System.out.printf("%.0f секунд - это то же самое, что и %.2f часов", seconds, hours);
+        System.out.printf("В %.0f секундах содержится %.2f часов", seconds, hours);
     }
 }

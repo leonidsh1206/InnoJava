@@ -12,6 +12,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double value = sc.nextDouble();
         double cost = part * value; // Зарплаты на руки
-        System.out.printf("После вычета налога от суммы %.2f руб. зарплата составит %.2f руб.", value, cost);
+        System.out.printf("После вычетания налога с суммы %.2f руб. зарплата составит %.2f руб.", value, cost);
     }
 }
