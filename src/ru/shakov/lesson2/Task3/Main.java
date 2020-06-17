@@ -2,14 +2,10 @@ package ru.shakov.lesson2.Task3;
 
 // Программа для перерасчета секунд в часы
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Введите количество секунд для пересчета: ");
-        Scanner sc = new Scanner(System.in);
-        double seconds = sc.nextDouble();
+        double seconds = Double.parseDouble(args[0]);
         double hours = seconds / 3600.0; // Количество часов
-        System.out.printf("В %.0f секундах содержится %.2f часов", seconds, hours);
+        System.out.printf("В %f секундах содержится %f часов", seconds, hours);
     }
 }
