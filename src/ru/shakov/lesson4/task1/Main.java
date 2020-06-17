@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Введите первое число:");
         Scanner sc = new Scanner(System.in);
         int firstNumber = sc.nextInt();
+
         System.out.println("Введите второе число:");
         int secondNumber = sc.nextInt();
         if (firstNumber >= secondNumber) {

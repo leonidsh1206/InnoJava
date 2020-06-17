@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Введите число:");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
+
         int parity = Math.abs(number % 2);
         if (number == 0) {
             System.out.println("Введено число равное 0");

@@ -30,7 +30,7 @@ public class Main {
                 System.out.println("Введите знаменатель геометрической прогрессии");
                 double bn = b1;
                 double q = sc.nextDouble();
-                System.out.printf("b1 = %.0f  ", b1);
+                System.out.printf("b1 = %.0f\t", b1);
                 for (int i = 2; i <= num; i++) {
                     bn *= q;
                     System.out.printf("b%d = %.0f  ", i, bn);
