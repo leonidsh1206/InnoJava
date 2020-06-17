@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         final double part = 0.87; // ставка после вычетания налога
 
-        System.out.println("Введите зарплату до вычета налога:");
+        System.out.println("Введите зарплату до вычета налога: ");
         Scanner sc = new Scanner(System.in);
         double value = sc.nextDouble();
         double cost = part * value; // Зарплаты на руки

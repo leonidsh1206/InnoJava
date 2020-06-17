@@ -14,7 +14,6 @@ public class HotCold {
         int nextNumber;
         //System.out.println(randomNumber);
 
-
         for (int i = 1; i <= 10; i++) {
             System.out.printf("Введите целое число от 1 до 100. Осталось %d попыток\n", 11 - i);
             Scanner sc = new Scanner(System.in);

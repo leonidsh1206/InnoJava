@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         final int gasPrice = 43; // Стоимость одного литра бензина
 
-        System.out.println("Введите кол-во литров:");
+        System.out.println("Введите кол-во бензина в литрах:");
         Scanner sc = new Scanner(System.in);
         int value = sc.nextInt();
         int cost = gasPrice * value; // Итоговая стоимость
