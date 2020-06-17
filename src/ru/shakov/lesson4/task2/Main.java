@@ -2,6 +2,8 @@ package ru.shakov.lesson4.task2;
 
 import java.util.Scanner;
 
+// Описание введенного числа
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введите число:");
@@ -12,16 +14,16 @@ public class Main {
             System.out.println("Введено число равное 0");
         } else {
             if (number < 0) {
-                System.out.printf("Введено число отрицательное, ");
+                System.out.print("Введено число отрицательное, ");
             } else {
-                System.out.printf("Введено число положительное, ");
+                System.out.print("Введено число положительное, ");
             }
             switch (parity) {
                 case 0:
-                    System.out.printf("четное");
+                    System.out.print("четное");
                     break;
                 case 1:
-                    System.out.printf("нечетное");
+                    System.out.print("нечетное");
                     break;
             }
         }

@@ -2,6 +2,8 @@ package ru.shakov.lesson4.task1;
 
 import java.util.Scanner;
 
+// Нахождение меньшего из двух чисел
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Введите первое число:");
